@@ -21,10 +21,10 @@ text-align:center;
 <body>
 <div id="main">
 <script type="text/javascript">
-var resp = ['Yup.', 'Of course!', 'Yes.', 'Absolutely.', 'Yuppers.', 'Nooooooooooooope! I mean yes.', 'Certainly.', 'Indubitably.', 'Sure.'];
-var rand = myArray[Math.floor(Math.random() * myArray.length)];
+var resp = ['Yup.', 'Of course!', 'Yes.', 'Absolutely.', 'Yuppers.', 'Nope!<br/>I mean... yes.', 'Certainly.', 'Indubitably.', 'Sure.'];
+var rand = resp[Math.floor(Math.random() * resp.length)];
 
-document.write(resp[rand]);
+document.write(rand);
 </script>
 <noscript>NOPE!</noscript>
 </div>
